@@ -1,0 +1,21 @@
+<%-include("partials/header");-%>
+
+<h1>Compose</h1>
+<!-- <form id="myform" class="" action="/" method="post">
+  <input type="text" name="" value="">
+  <button form="myform" type="button" name="button">Publish</button>
+
+</form> -->
+<div class="container">
+
+
+<form class="composeitem" id="myform" action="/compose" method="post">
+<h5><label for="Addtask">Title</label></h5>
+      <input class="title form-control" type="text" name="Addtask" autocomplete="off" required>
+  <h5>   <label for="content">Post</label></h5>
+      <textarea class="textcontent form-control" id="content" name="content" rows="4" cols="50"></textarea>
+      <br>
+      <button class="btn btn-primary" form="myform" name="button" type="submit">Publish</button>
+      </form>
+      </div>
+<%-include("partials/footer");-%>

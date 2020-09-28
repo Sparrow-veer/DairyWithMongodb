@@ -1,0 +1,14 @@
+<%- include("partials/header"); -%>
+
+<h1>Home</h1>
+<p><%= homeStartingContent%></p>
+
+
+
+<%composedata.forEach(function(element){%>
+  <h2><%= element.titlename%></h2>
+  <p><%= element.content.substr(0,101)+"..."%> <a href="/posts/<%= element._id%>">ReadMore</a> </p>
+<%});%>
+
+
+<%- include("partials/footer"); -%>
