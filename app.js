@@ -58,6 +58,7 @@ app.get("/compose",function(req,res){
 });
 
 app.post("/compose",function(req,res){
+  console.log("body",req.body);
 const newpost=new diarycollection({
   titlename:req.body.Addtask,
   content:req.body.content
