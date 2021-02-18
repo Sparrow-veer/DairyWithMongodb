@@ -7,7 +7,7 @@ const mongoose=require("mongoose");
 var lowerCase = require('lodash.lowercase');
 
 //mongoose.connect("mongodb://localhost:27017/diaryDB",{ useNewUrlParser: true,useUnifiedTopology: true  });
-mongoose.connect("mongodb+srv://admin-prudhvi:admin@cluster0.tlfgp.mongodb.net/diaryDB",{ useNewUrlParser: true,useUnifiedTopology: true  });
+//connect to your moongodb
 
 //var homedata=[];
 const homeStartingContent = "Apple wants a weekend or expensive dui want to decorate. Which is always the creator nor the duration of her life. Carrots carrots just been running a lot. Product lived in this. Financing yeast rice vegetarian or clinical portal. That they are not members, nor members of the Donec ultrices tincidunt arcu. A lot of television targeted at the undergraduate nutrition. Of life, and the mountains shall be born, ultricies quis, congue in magnis dis parturient. Adipiscing elit ut aliquam purus sit amet luctus venenatis lectus. The founder of basketball and football propaganda graduated drink at the arc. Performance skirt smile at any hate for hate vulputate. Running a lot of television targeted at the undergraduate nutrition.";
